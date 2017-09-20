@@ -9,7 +9,7 @@ public class Cercle extends Figure {
 
     public double area() {
 
-        return radi*(Math.pow((Math.PI),2));
+        return Math.PI*(Math.pow((radi),2));
     }
 }
 
