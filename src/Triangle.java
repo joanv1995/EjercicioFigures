@@ -10,7 +10,6 @@ public class Triangle extends Figure{
     }
 
     public double area() {
-
         return (base*lado)/2;
     }
 

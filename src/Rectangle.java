@@ -1,16 +1,16 @@
 
-public class Triangle extends Figure{
+public class Rectangle extends Figure{
 
     public double base;
     public double lado;
 
-    public Triangle(double b, double l){
+    public Rectangle(double b, double l){
         this.base = b;
         this.lado = l;
     }
 
     public double area() {
-        return (base*lado)/2;
+        return (base*lado);
     }
 
 }
