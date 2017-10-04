@@ -67,5 +67,7 @@ public class Main {
         }
 
         System.out.println("La suma de las areas es: " + res + " cm^2");
+        System.out.println("Holi lalalal");
+        int p;
     }
 }
