@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        Figure[] listaFiguras = new Figure[12];
-        double[] lista_area = new double[12];    // Array ordenado de las areas de las figuras.
+        Figure[] listaFiguras = new Figure[13];
+        double[] lista_area = new double[13];    // Array ordenado de las areas de las figuras.
         double res = 0;
 
 
@@ -25,6 +25,7 @@ public class Main {
         Quadrat q1 = new Quadrat(5);
         Quadrat q2 = new Quadrat(9);
         Quadrat q3 = new Quadrat(6);
+        Quadrat q4 = new Quadrat(15);
 
         c1.area(); c2.area(); c3.area();
 
@@ -32,7 +33,7 @@ public class Main {
 
         r1.area(); r2.area(); r3.area();
 
-        q1.area(); q2.area(); q3.area();
+        q1.area(); q2.area(); q3.area(); q4.area();
 
 
         listaFiguras[0] = c1;
@@ -47,6 +48,7 @@ public class Main {
         listaFiguras[9] = q1;
         listaFiguras[10] = q2;
         listaFiguras[11] = q3;
+        listaFiguras[12] = q4;
 
         int i=0;
         for (Figure f : listaFiguras) {
